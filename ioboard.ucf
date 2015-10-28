@@ -1,0 +1,115 @@
+# XUPV5 보드 및 IOBOARD User Constraint File (UCF)
+# 필요한 부분을 주석 해제하시고 사용하세요.
+
+# ----------- XUPV5 보드 -----------
+# NET "CLK_100MHZ" LOC=AH15;
+
+# DIP 스위치
+# NET "DIPSW_1" LOC=U25;
+# NET "DIPSW_2" LOC=AG27
+# NET "DIPSW_3" LOC=AF25;
+# NET "DIPSW_4" LOC=AF26;
+# NET "DIPSW_5" LOC=AE27;
+# NET "DIPSW_6" LOC=AE26;
+# NET "DIPSW_7" LOC=AC25;
+# NET "DIPSW_8" LOC=AC24;
+
+# 푸시버튼
+# NET "PUSHSW_N" LOC=U8;
+# NET "PUSHSW_S" LOC=V8;
+# NET "PUSHSW_E" LOC=AK7;
+# NET "PUSHSW_W" LOC=AJ7;
+# NET "PUSHSW_C" LOC=AJ6;
+
+# LCD 밑 LED
+# NET "LED_0" LOC=H18;
+# NET "LED_1" LOC=L18;
+# NET "LED_2" LOC=G15;
+# NET "LED_3" LOC=AD26;
+# NET "LED_4" LOC=G16;
+# NET "LED_5" LOC=AD25;
+# NET "LED_6" LOC=AD24;
+# NET "LED_7" LOC=AE24;
+
+# 푸시버튼 하단의 LED
+# NET "LED_N" LOC=AF13;
+# NET "LED_E" LOC=AG23;
+# NET "LED_S" LOC=AG12;
+# NET "LED_W" LOC=AF23;
+# NET "LED_C" LOC=E8;
+
+# 피에조 부저
+# NET "PIEZO" LOC=G30;
+
+# ----------- IO보드 -----------
+# 7세그먼트 좌측부터 1번
+NET "seg_output[6]" LOC = H33;
+NET "seg_output[5]" LOC = F34;
+NET "seg_output[4]" LOC = H34;
+NET "seg_output[3]" LOC = G33;
+NET "seg_output[2]" LOC = G32;
+NET "seg_output[1]" LOC = H32;
+NET "seg_output[0]" LOC = J32;
+# NET "IO_J2_A" LOC = J34;
+# NET "IO_J2_B" LOC = L33;
+# NET "IO_J2_C" LOC = M32;
+# NET "IO_J2_D" LOC = P34;
+# NET "IO_J2_E" LOC = N34;
+# NET "IO_J2_F" LOC = AA34;
+# NET "IO_J2_G" LOC = AD32;
+# NET "IO_J3_A" LOC = Y34;
+# NET "IO_J3_B" LOC = Y32;
+# NET "IO_J3_C" LOC = W32;
+# NET "IO_J3_D" LOC = AH34;
+# NET "IO_J3_E" LOC = AE32;
+# NET "IO_J3_F" LOC = AG32;
+# NET "IO_J3_G" LOC = AH32;
+# NET "IO_J7_A" LOC = K34;
+# NET "IO_J7_B" LOC = L34;
+# NET "IO_J7_C" LOC = K32;
+# NET "IO_J7_D" LOC = K33;
+# NET "IO_J7_E" LOC = N32;
+# NET "IO_J7_F" LOC = P32;
+# NET "IO_J7_G" LOC = R34;
+# NET "IO_J8_A" LOC = T33;
+# NET "IO_J8_B" LOC = R32;
+# NET "IO_J8_C" LOC = R33;
+# NET "IO_J8_D" LOC = T34;
+# NET "IO_J8_E" LOC = U33;
+# NET "IO_J8_F" LOC = U31;
+# NET "IO_J8_G" LOC = U32;
+# NET "IO_J9_A" LOC = V33;
+# NET "IO_J9_B" LOC = V32;
+# NET "IO_J9_C" LOC = V34;
+# NET "IO_J9_D" LOC = W34;
+# NET "IO_J9_E" LOC = AA33;
+# NET "IO_J9_F" LOC = Y33;
+# NET "IO_J9_G" LOC = AE34;
+
+# LED
+# NET "IO_D2" LOC = AN33;
+# NET "IO_D3" LOC = AF34;
+# NET "IO_D4" LOC = AE33;
+# NET "IO_D5" LOC = AF33;
+# NET "IO_D6" LOC = AD34;
+# NET "IO_D7" LOC = AC34;
+
+# 푸시버튼
+NET "PUSHSW_input[5]" LOC = AN32;
+NET "PUSHSW_input[4]" LOC = AP32;
+NET "PUSHSW_input[3]" LOC = AC33;
+NET "PUSHSW_input[2]" LOC = AB33;
+NET "PUSHSW_input[1]" LOC = AC32;
+NET "PUSHSW_input[0]" LOC = AB32;
+
+# DIP 스위치
+NET "DIP_input[9]" LOC = AK34;
+NET "DIP_input[8]" LOC = AK33;
+NET "DIP_input[7]" LOC = AJ32;
+NET "DIP_input[6]" LOC = AK32;
+NET "DIP_input[5]" LOC = AL34;
+NET "DIP_input[4]" LOC = AL33;
+NET "DIP_input[3]" LOC = AM33;
+NET "DIP_input[2]" LOC = AJ34;
+NET "DIP_input[1]" LOC = AM32;
+NET "DIP_input[0]" LOC = AN34;
