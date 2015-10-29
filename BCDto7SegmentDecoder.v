@@ -1,27 +1,27 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
-// 
-// Create Date:    15:44:52 10/28/2015 
-// Design Name: 
-// Module Name:    BCDto7SegmentDecoder 
-// Project Name: 
-// Target Devices: 
-// Tool versions: 
-// Description: 
+// Company:
+// Engineer:
 //
-// Dependencies: 
+// Create Date:    15:44:52 10/28/2015
+// Design Name:
+// Module Name:    BCDto7SegmentDecoder
+// Project Name:
+// Target Devices:
+// Tool versions:
+// Description:
 //
-// Revision: 
+// Dependencies:
+//
+// Revision:
 // Revision 0.01 - File Created
-// Additional Comments: 
+// Additional Comments:
 //
 //////////////////////////////////////////////////////////////////////////////////
 module BCDto7SegmentDecoder(
-    input [3:0] bcd,
-    output reg [6:0] display
-    );
+   input [3:0] bcd,
+   output reg [6:0] display
+   );
 
 always @ (*) begin
 	case (bcd)

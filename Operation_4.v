@@ -11,7 +11,7 @@ always @(*) begin
 	 out[4] = 1'b0;
     out[8:5] = 4'b0;
 	 out[3:0] = 4'b0;
-    for (i = 0; i < 5; i = i + 1) begin
+    for (i = 0; i < 6; i = i + 1) begin
         out[8:5] = out[8:5] + x[i];
         out[3:0] = out[3:0] + ~x[i];
     end
