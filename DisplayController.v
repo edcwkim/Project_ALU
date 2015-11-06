@@ -38,7 +38,7 @@ module DisplayController(
 wire [11:0] selected;
 wire [3:0] seg_bcd [0:5];
 
-Mux_8_1 mux(val0, val1, val2, val3, val4, val5, val6, 11'bx, mode, selected);
+Mux_8_1 mux(val0, val1, val2, val3, val4, val5, val6, 12'bx, mode, selected);
 
 ValToBCD v(selected, seg_bcd[5], seg_bcd[4], seg_bcd[3], seg_bcd[2], seg_bcd[1], seg_bcd[0]);
 

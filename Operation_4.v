@@ -13,7 +13,7 @@ always @(*) begin
 	 out[3:0] = 4'b0;
     for (i = 0; i < 6; i = i + 1) begin
         out[8:5] = out[8:5] + x[i];
-        out[3:0] = out[3:0] + ~x[i];
+        out[3:0] = out[3:0] + !x[i];
     end
 end
 

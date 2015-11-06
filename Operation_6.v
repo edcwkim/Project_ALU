@@ -8,7 +8,7 @@ integer i;
 always @(*)
 begin
 
-out[11:10] = 2'b01;
+out[11:10] = 2'b10;
 out[9:6] = 4'bxxxx;
 
 out[5:0] = x[5:0];
